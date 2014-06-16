@@ -10,4 +10,5 @@ feature "A dummy app exists" do
     visit "/"
     expect(page).to have_text("I am the test site")
   end
+
 end
