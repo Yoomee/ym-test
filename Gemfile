@@ -12,3 +12,6 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+# Need to override here to add require: false
+gem 'cucumber-rails', require: false
