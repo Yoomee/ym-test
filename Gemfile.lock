@@ -112,6 +112,10 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.3.2)
+    rspec (2.99.0)
+      rspec-core (~> 2.99.0)
+      rspec-expectations (~> 2.99.0)
+      rspec-mocks (~> 2.99.0)
     rspec-collection_matchers (1.0.0)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (2.99.0)
@@ -160,5 +164,6 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-rails
+  rspec
   sqlite3
   ym_test!
