@@ -1,6 +1,8 @@
 require 'factory_girl_rails'
 require 'capybara/rspec'
 require 'capybara/poltergeist'
+require 'shoulda-matchers'
+require 'database_cleaner'
 require 'ym_test'
 
 Capybara.javascript_driver = :poltergeist

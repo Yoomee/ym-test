@@ -53,6 +53,11 @@ In your ````spec/spec_helper.rb``` file add:
 require 'ym_test/rspec'
 ```
 
+This also requires:
+
+* Database Cleaner
+* shoulda-matchers
+
 ### YmTest Helpers
 
 Marked as available in Cucumber/rspec as appropriate
