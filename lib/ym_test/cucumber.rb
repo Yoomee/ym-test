@@ -1,5 +1,6 @@
 require 'capybara/poltergeist'
 require 'factory_girl_rails'
+require 'ym_test'
 
 # set javascript driver
 Capybara.javascript_driver = :poltergeist
