@@ -43,16 +43,31 @@ This sets up:
 * Factory Girl
 * YmTest helper methods
 
-#### YmTest Helpers
+### rspec
 
-##### Factory Girl
+In your ````spec/spec_helper.rb``` file add:
+
+```
+require 'ym_test/rspec'
+```
+
+This sets up:
+
+* Poltergeist
+* YmTest helper methods
+
+### YmTest Helpers
+
+Marked as available in Cucumber/rspec as appropriate
+
+##### Factory Girl (Cucumber)
 
 You can use Factory Girl easily.
 
 You can do ```create(:factory_name)``` rather then ```FactoryGirl.create(:factory_name)```
 
 
-##### @email
+##### @email (Cucumber)
 
 This sets up ActionMailer for use in your tests.
 
@@ -78,12 +93,12 @@ Then(/^it should send an? "(.*?)" email$/) do |subject|
   @email.subject.should include(subject)
 end
 ```
-#### wait_for_ajax
+#### wait_for_ajax (Cucumber and rspec)
 
 Use ```wait_for_ajax``` when you want to ensure that all ajax requests have
 completed in your ```@javascript``` tests before moving onto the next step
 
-**Example:**
+**Cucumber example:**
 
 ```
 When(/^I press the 'Show more' link$/) do
@@ -91,10 +106,6 @@ When(/^I press the 'Show more' link$/) do
   wait_for_ajax
 end
 ```
-
-### rspec
-
-TODO
 
 ## Licence
 
