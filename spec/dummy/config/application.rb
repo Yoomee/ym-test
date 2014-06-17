@@ -3,7 +3,10 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
+
+# explicitly require app dependencies, since no Gemfile in dummy app
 require "ym_test"
+require "jquery-rails"
 
 module Dummy
   class Application < Rails::Application
@@ -20,4 +23,3 @@ module Dummy
     # config.i18n.default_locale = :de
   end
 end
-
