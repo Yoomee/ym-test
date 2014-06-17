@@ -14,8 +14,6 @@ end
 
 ## Usage
 
-How to use.
-
 ### Cucumber
 
 In your ````features/support/env.rb``` file add:
