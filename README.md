@@ -108,6 +108,12 @@ When(/^I press the 'Show more' link$/) do
   wait_for_ajax
 end
 ```
+## Tests (Qui in testers experiri?)
+
+From the root directory run:
+```
+rspec
+```
 
 ## Licence
 
