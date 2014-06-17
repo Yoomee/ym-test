@@ -31,6 +31,12 @@ It brings in the following Gems to your project:
 
 ## Usage
 
+This sets up:
+
+* Poltergeist
+* Factory Girl
+* YmTest helper methods
+
 ### Cucumber
 
 In your ````features/support/env.rb``` file add:
@@ -39,12 +45,6 @@ In your ````features/support/env.rb``` file add:
 require 'ym_test/cucumber'
 ```
 
-This sets up:
-
-* Poltergeist
-* Factory Girl
-* YmTest helper methods
-
 ### rspec
 
 In your ````spec/spec_helper.rb``` file add:
@@ -52,11 +52,6 @@ In your ````spec/spec_helper.rb``` file add:
 ```
 require 'ym_test/rspec'
 ```
-
-This sets up:
-
-* Poltergeist
-* YmTest helper methods
 
 ### YmTest Helpers
 
