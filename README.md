@@ -8,6 +8,8 @@ It also provides some helper methods.
 
 This is currently installed directly from the Yoomee Gitlab.
 
+It depends on Rails 4.1 or greater.
+
 Include the following in your Gemfile:
 
 ```
