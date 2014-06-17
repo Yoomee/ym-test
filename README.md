@@ -1,5 +1,9 @@
 # YmTest
 
+This gem provides a shortcut to import the gems we use at Yoomee for testing.
+
+It also provides some helper methods.
+
 ## Installation
 
 This is currently installed directly from the Yoomee Gitlab.
@@ -11,6 +15,17 @@ group :test do
   gem 'ym_test', :git => 'git@gitlab.yoomee.com:yoomee/ym_test.git'
 end
 ```
+
+It brings in the following Gems to your project:
+
+ * rspec-rails
+ * factory_girl_rails
+ * cucumber-rails
+ * poltergeist
+ * database_cleaner
+ * shoulda-matchers
+ * webmock
+ * capybara-webkit
 
 ## Usage
 
