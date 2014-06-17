@@ -6,6 +6,7 @@ PATH
       cucumber-rails
       database_cleaner
       factory_girl_rails
+      jquery-rails
       poltergeist
       rails (~> 4.1.1)
       rspec-rails (~> 2.0)
@@ -171,7 +172,6 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-rails
-  jquery-rails
   rspec
   sqlite3
   ym_test!
