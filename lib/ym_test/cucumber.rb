@@ -14,5 +14,3 @@ end
 
 # make factory girl methods available
 World(FactoryGirl::Syntax::Methods)
-# include ajax helpers
-World(YmTest::AjaxHelpers)
