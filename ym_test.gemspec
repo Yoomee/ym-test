@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency "webmock"
   s.add_dependency "capybara-webkit"
   s.add_dependency "jquery-rails"
+  s.add_dependency "launchy"
 
   s.add_development_dependency "rspec"
   s.add_development_dependency "turbolinks"
